@@ -1,0 +1,552 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: rgba(255, 248, 238, 1);
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+.top-div {
+  background-color: rgba(204, 51, 51, 1);
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1220px;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+}
+.top-left {
+  display: flex;
+  gap: 30px;
+}
+.div-oclock,
+.div-phone {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  padding: 10px 10px 10px 10px;
+}
+.oclock img,
+.phone img {
+  width: 20px;
+  height: 20px;
+}
+.oclock-info p,
+.phone-info p,
+.registr p {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  color: rgba(255, 248, 238, 1);
+}
+.div-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 248, 238, 1);
+}
+.logo img {
+  width: 112px;
+  height: 75px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: rgba(42, 67, 93, 1);
+  cursor: pointer;
+}
+nav ul li a {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+
+  color: rgba(42, 67, 93, 1);
+}
+.sebet-div {
+  display: flex;
+
+  gap: 10px;
+  align-items: center;
+}
+
+.sebet img {
+  width: 60px;
+  height: 61px;
+  cursor: pointer;
+}
+.div-delivery {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.delivery-info p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  color: rgba(42, 67, 93, 1);
+}
+.delivery-info h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+
+  color: rgba(42, 67, 93, 1);
+}
+.delivery img {
+  width: 35px;
+  height: 35px;
+}
+
+.button {
+  width: 90px;
+  height: 35px;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: rgba(204, 51, 51, 1);
+  color: rgba(255, 248, 238, 1);
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.first {
+  background-image: url(../img/yeni-makaron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second,
+.third,
+.fifth {
+  max-width: 1220px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.cook h1 {
+  text-align: center;
+  color: rgba(255, 248, 238, 1);
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41.02px;
+}
+.cook p {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  color: rgba(255, 248, 238, 1);
+}
+.second-div {
+  /* margin-top: 40px;*/
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+}
+.div-square {
+  max-width: 1173px;
+  width: 100%;
+  border-radius: 20px;
+  border: 3px solid rgba(204, 51, 51, 1);
+  padding: 10px 40px;
+  margin: 0 auto;
+}
+
+.square {
+  display: flex;
+  gap: 20px;
+  padding: 20px 10px;
+}
+.square-img {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 10px;
+}
+
+.square-img img {
+  width: 511px;
+  height: 294px;
+  border-radius: 20px;
+}
+.square-info {
+  padding: 10px 10px;
+}
+.square-info h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  text-align: justify;
+  color: rgba(42, 67, 93, 1);
+}
+.square-info p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: justify;
+  color: rgba(42, 67, 93, 1);
+}
+.our-story {
+  max-width: 1173px;
+  width: 100%;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+.our-story h1 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41.02px;
+  text-align: center;
+  color: rgba(204, 51, 51, 1);
+}
+.our-info {
+  padding: 10px 10px;
+}
+.our-info p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: justify;
+  color: rgba(42, 67, 93, 1);
+}
+.our-img img {
+  width: 511px;
+  height: 294px;
+}
+.div-our {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+/*niye section tam rengi goturmur?*/
+.fourth {
+  background-color: rgba(255, 223, 223, 1);
+  margin: 0 auto;
+  width: 100%;
+}
+.div-chef {
+  padding: 20px;
+}
+.chef {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  padding: 10px;
+}
+.chef-info {
+  text-align: justify;
+  width: 609px;
+  height: 69px;
+  text-align: left;
+}
+.chef-info h3 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41.02px;
+  color: rgba(42, 67, 93, 1);
+}
+.chef-info h2 {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29.3px;
+  color: rgba(204, 51, 51, 1);
+}
+.chef-info p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: justify;
+  color: rgba(42, 67, 93, 1);
+}
+.chef-img img {
+  width: 332px;
+  height: 300px;
+}
+.btn {
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  height: 60px;
+  border-radius: 20px;
+  background-color: rgba(204, 51, 51, 1);
+  border: none;
+  color: rgba(42, 67, 93, 1);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  padding: 0 10px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.special {
+  margin-top: 30px;
+}
+.special h1 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41.02px;
+  text-align: center;
+}
+.special p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: center;
+  color: rgba(204, 51, 51, 1);
+}
+.slaydlar {
+  padding: 30px 30px;
+}
+.wedding-cart {
+  max-width: 425px;
+  width: 100%;
+
+  cursor: pointer;
+}
+.wedding-cart h1 {
+  color: rgba(204, 51, 51, 1);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41.02px;
+}
+.wedding-cart p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+}
+.our-team {
+  margin-top: 50px;
+}
+.our-team h1 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41.02px;
+  text-align: center;
+}
+.our-team p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: center;
+}
+.team-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  justify-content: center;
+  max-width: 343px;
+  width: 100%;
+}
+
+.big-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+.small-circle {
+  display: flex;
+  position: absolute;
+  padding-left: 100px;
+  margin-top: -80px;
+}
+.small-circle img {
+  width: 217px;
+  height: 217px;
+  border-radius: 50%;
+  border: 5px solid rgba(204, 51, 51, 1);
+}
+.big-circle {
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  height: 343px;
+  border-radius: 50%;
+  border: 5px solid rgba(204, 51, 51, 1);
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+.circle-info {
+  margin-top: 30px;
+}
+.circle-info h1 {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 29.3px;
+  text-align: center;
+  color: rgba(204, 51, 51, 1);
+  margin-top: 60px;
+}
+.circle-info p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: center;
+  color: rgba(204, 51, 51, 1);
+  width: 250px;
+  height: 126px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  gap: 20px;
+}
+.social a {
+  color: rgba(204, 51, 51, 1);
+}
+.team-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+  padding: 20px 20px;
+}
+h1 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41.02px;
+  text-align: center;
+  color: rgba(42, 67, 93, 1);
+  padding: 10px 30px;
+}
+footer {
+  background-color: rgba(204, 51, 51, 1);
+  margin-top: 20px;
+}
+.top-footer {
+  width: 100%;
+  height: 198px;
+}
+.footer-info h1 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41.02px;
+}
+.footer-info p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+
+  color: rgba(255, 248, 238, 1);
+}
+.time-phone {
+  display: flex;
+  gap: 20px;
+}
+.div-time,
+.div-phone {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-img img,
+.footer-phone img {
+  width: 20px;
+  height: 20px;
+}
+
+.time-info p,
+.phone-info p {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  color: rgba(255, 248, 238, 1);
+}
+.map p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  color: rgba(75, 255, 60, 1);
+  cursor: pointer;
+}
+.left-footer,
+.middle-footer,
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 318px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.top-footer {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-bottom {
+  padding: 30px 0;
+  background-color: rgba(42, 67, 93, 1);
+}
+.footer-bottom p {
+  color: rgba(255, 248, 238, 1);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
